@@ -1,4 +1,6 @@
 # C Language
+C語言練習及教學題    
+轉發或用於其他用途前請先參考 License.rm 的版權聲明細則.  
 
 ## File Structure
 ```
