@@ -1,8 +1,8 @@
-//編號：L1_20-1031N2v0_Loop.c
+// 編號：L1_20-1031N2v0_Loop.c
 
 // 程式類別：C語言
 // 基礎題：陣列練習 ( 難度 ★☆☆☆☆ )
-// 題目：投票系統
+// 題目：溫控系統
 
 // 時間：NULL ( 不限 ) //最佳 3s內
 // 內存大小：128MB
@@ -40,23 +40,22 @@
 // 27.900
 
 #include <stdio.h>
+#define SIZE 10000    //預先定義(全域宣告): int SIZE = 10000;
 
 int main(void) {
 
     //創建一個空間為10000大小的陣列並且初始化內容為0用以保存每個時段的溫度
-    double time_CheckPoint[10000] = {0};
+    double time_CheckPoint[SIZE] = {0};
 
-    //保存需要輸入的資料筆數
-    int number = 0;
+    int number = 0; //保存需要輸入的資料筆數
+    double average = 0; //計算平均溫度
 
-    //計算平均溫度
-    double average = 0;
-
-    scanf("%d", &number);   //輸入資料筆數
+    //輸入資料筆數
+    scanf("%d", &number);
 
     //安全性檢查: 超出範圍則停止程式
-    if(number < 5 || number > 10000) {
-        printf("Error: Out of range => {%d}. stop running.", number);
+    if(number < 5 || number > SIZE) {
+        printf("Error: Out of range(0 ~ %d) => {%d}. stop running.", SIZE, number);
         return 0;
     }
 
