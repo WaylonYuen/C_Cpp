@@ -1,3 +1,29 @@
+// 編號：L3_20-1102N3v0_Char_單詞搜尋.c
+
+// 程式類別：C語言
+// 基礎題：陣列練習 ( 難度 ★★★☆☆ )
+// 題目：單詞搜尋
+
+// 時間：NULL ( 不限 ) //最佳 3s內
+// 內存大小：128MB
+
+// 題目內容：
+// 手動輸入一筆字串內容，再輸入想要查找的單詞；輸出查找到的單詞第一個字母所位於的索引值。
+
+// 輸入： 
+// 手動輸入字串
+
+// 輸出：
+// 請以 “Index: %d\n” 的格式，輸出索引結果
+
+// Sample input :
+// Winners do what losers don’t want to do.
+// do
+
+// Sample output： 
+// Index: 8
+// Index: 37
+
 #include <stdio.h>
 
 #define SIZE 100
@@ -64,7 +90,7 @@ int main(void) {
 
                 do {
                     position++;
-                } while (str[position] != ' ');
+                } while (str[position] != ' ' && str[position] != '\0');
 
                 printf("%d\t比對失敗(略過至索引: %d )...\t%c\n", ++counter, position, str[position]);
                 break;
@@ -86,6 +112,7 @@ int main(void) {
     }
 
     puts(" ");
+    printf("搜尋結果: %d\n", numOfResult);
     for (int i = 0; i < numOfResult; i++) {
         printf("index: %d\n", result[i]);
     }
