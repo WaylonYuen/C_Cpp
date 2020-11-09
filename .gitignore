@@ -3,6 +3,7 @@
 *
 
 #添加 git附加說明文件
+!.md
 !.gitkeep
 !.gitignore
 
