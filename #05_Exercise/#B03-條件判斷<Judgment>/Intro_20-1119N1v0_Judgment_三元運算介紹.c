@@ -1,10 +1,10 @@
-// 編號：Intro_20-1119N1v0_Judgment_三元運算.c
+// 編號：Intro_20-1119N1v0_Judgment_三元運算介紹.c
 
 // 程式類別：C語言
 
 #include<stdio.h>
 
-int main(void){
+int main(void) {
 
     int A, B;
     int max;
