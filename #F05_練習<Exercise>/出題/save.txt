@@ -1,0 +1,5 @@
+100	Alan	Jones	348.170000
+200	Andy	Steve	134.900000
+300	Mary	Smith	27.190000
+500	Sam	Sharp	0.000000
+700	Suzy	Green	-14.220000

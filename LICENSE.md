@@ -1,6 +1,7 @@
 This is free and unencumbered software released into the public domain.  
 這是發佈到公共領域的免費且不受限制的軟件。  
   
+
 Anyone is free to copy, modify, publish, use, compile, sell, or  
 distribute this software, either in source code form or as a compiled  
 binary, for any purpose, commercial or non-commercial, and by any  
@@ -8,6 +9,7 @@ means.
 任何人都可以自由地以源代碼形式或編譯後的二進制形式出於任何商業或非商業目的，  
 以任何方式複制，修改，發布，使用，編譯，出售或分發此軟件。  
   
+
 In jurisdictions that recognize copyright laws, the author or authors  
 of this software dedicate any and all copyright interest in the  
 software to the public domain. We make this dedication for the benefit  
@@ -19,6 +21,7 @@ software under copyright law.
 我們做出這一奉獻是為了廣大公眾的利益，也損害了我們的繼承人和繼承者。  
 我們打算根據版權法，永久放棄本軟件的所有當前和將來權利。  
   
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,  
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF  
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  
@@ -27,7 +30,7 @@ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR  
 OTHER DEALINGS IN THE SOFTWARE.  
 本軟件按“原樣”提供，不提供任何形式的明示或暗示擔保，  
-包括但不限於對適銷性、特定目的的適用性和非侵權性的保證。   
+包括但不限於對適銷性、特定目的的適用性和非侵權性的保證。  
 無論出於與軟件或軟件的使用或其他處理有關，與軟件有關的合同，侵權或其他形式的任何索賠，損害或其他責任，作者均不承擔任何責任。  
   
   
