@@ -1,5 +1,5 @@
 # C_Cpp Language
-![Docker Image Version (latest semver)](https://img.shields.io/docker/v/Waylon/C_Cpp?color=red&label=C_Cpp&logo=release&logoColor=red)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/Waylon/C_Cpp?color=red&label=C_Cpp&logo=release&logoColor=red)  
 C語言練習及教學題    
 轉發或用於其他用途前請先參考 License.rm 的版權聲明細則.  
 
